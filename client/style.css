@@ -148,13 +148,14 @@ nav ul li a:hover::after{
     border-color: white;
     padding: 20px;
     background-color: black;
+    border-width: 1px;
 }
 
 .text-box-about-1 p{
     color:white;
     display: flex;
     align-items: center;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
 }
 
 .text-box-about-2{
@@ -162,13 +163,14 @@ nav ul li a:hover::after{
     border-color: white;
     padding: 20px;
     background-color: black;
+    border-width: 1px;
 }
 
 .text-box-about-2 p{
     color:white;
     display: flex;
     align-items: center;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     background-color: black;
 }
 
@@ -176,6 +178,7 @@ nav ul li a:hover::after{
     border:solid;
     border-color:white;
     background-color: black;
+    border-width: 1px;
     
     display:flex;
     align-items: center;

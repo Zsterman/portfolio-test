@@ -147,7 +147,7 @@ nav ul li a:hover::after{
     border:solid;
     border-color: white;
     padding: 20px;
-    background-color: black;
+    background-color:rgba(0000, 0, 0, 0.5);
     border-width: 1px;
     border-radius: 25px;
 }
@@ -164,7 +164,7 @@ nav ul li a:hover::after{
     border:solid;
     border-color: white;
     padding: 20px;
-    background-color: black;
+    background-color:rgba(0000, 0, 0, 0.5);
     border-width: 1px;
     border-radius: 25px;
 }
@@ -174,21 +174,19 @@ nav ul li a:hover::after{
     display: flex;
     align-items: center;
     letter-spacing: 1px;
-    background-color: black;
+    background-color: rgba(0000, 0, 0, 0.5);
     border-radius: 25px;
 }
 
 .text-box-intro{
     border:solid;
     border-color:white;
-    background-color: black;
+    background-color: rgba(0000, 0, 0, 0.9);
     border-width: 1px;
     border-radius: 25px;
     display:flex;
     align-items: center;
     justify-content: center;
-    
-
 }
 
 .text-box-intro h2{
@@ -197,4 +195,26 @@ nav ul li a:hover::after{
     padding:20px;
     font-weight: 600;
     color:white;
+}
+
+.youtube1{
+    display:flex;
+    justify-content: center;
+}
+
+.skills{
+    border:solid;
+    border-color:white;
+    background-color: rgba(0000, 0, 0, 0.5);
+    border-width: 1px;
+    border-radius: 25px;
+    display:flex;
+    
+    justify-content: space-around;
+
+}
+.skills img{
+    width:50px;
+    display: block;
+    margin: 25px 5px;
 }
